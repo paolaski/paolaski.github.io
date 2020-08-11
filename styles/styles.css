@@ -1,0 +1,6 @@
+
+/* Estilos aplicables a toda la página */
+body{
+    background: src('../assets/img/background.jpg');
+    background-repeat: repeat;
+}

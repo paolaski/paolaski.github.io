@@ -130,7 +130,7 @@ a{
 }
 
 .container-icon > .icon-background-4{
-    background-color:  #FFACEF;
+    background-color:  #3c3c3c;
     background-image: url('../assets/img/youtube-brands.svg');
     background-repeat: no-repeat;
     background-position: center;
@@ -140,8 +140,17 @@ a{
     height: 8em;
 }
 
+.icon-background-4:hover{
+  box-shadow: 5px 5px 0 #FFACEF;
+}
+
+.icon-background-4:active{
+  box-shadow: none;
+  background-color: #1A1A1A;
+}
+
 .container-icon > .icon-background-5{
-  background-color: #71F3FF;
+  background-color: #3c3c3c;
   background-image: url('../assets/img/github-brands.svg');
   background-repeat: no-repeat;
   background-position: center;
@@ -149,4 +158,13 @@ a{
   border-radius: 49%;
   width: 8em;
   height: 8em;
+}
+
+.icon-background-5:hover{
+  box-shadow: 5px 5px 0 #71F3FF;
+}
+
+.icon-background-5:active{
+  box-shadow: none;
+  background-color: #1A1A1A;
 }

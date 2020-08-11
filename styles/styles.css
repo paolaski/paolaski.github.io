@@ -12,7 +12,7 @@
        url('../assets/fonts/Somatic-Rounded.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 800;
   font-stretch: normal;
 }
 
@@ -34,7 +34,7 @@
   display: flex;
   flex-direction: column;
   padding: 5% 2%;
-  width: 65%;
+  width: 80%;
 }
 
 .container-title{
@@ -64,8 +64,89 @@
   justify-content: center;
 }
 
-.container-icon > i{
-  padding: 0.5em 0.55em;
-  background-color: #FFACEF;
+a{
+    margin: 0 2%;
+}
+
+.container-icon > .icon-background-1{
+    background-color:  #3c3c3c;
+    background-image: url('../assets/img/instagram-brands.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 4em;
+    border-radius: 49%;
+    width: 8em;
+    height: 8em;
+}
+
+.icon-background-1:hover{
+  box-shadow: 5px 5px 0 #71F3FF;
+}
+
+.icon-background-1:active{
+  box-shadow: none;
+  background-color: #1A1A1A;
+}
+
+
+.container-icon > .icon-background-2{
+    background-color:  #3c3c3c;
+    background-image: url('../assets/img/coffee-solid.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 4em;
+    border-radius: 49%;
+    width: 8em;
+    height: 8em;
+}
+
+.icon-background-2:hover{
+  box-shadow: 5px 5px 0 #FFACEF;
+}
+
+.icon-background-2:active{
+  box-shadow: none;
+  background-color: #1A1A1A;
+}
+
+.container-icon > .icon-background-3{
+    background-color: #3c3c3c;
+    background-image: url('../assets/img/twitch-brands.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 4em;
+    border-radius: 49%;
+    width: 8em;
+    height: 8em;
+}
+
+.icon-background-3:hover{
+  box-shadow: 5px 5px 0 #71F3FF;
+}
+
+.icon-background-3:active{
+  box-shadow: none;
+  background-color: #1A1A1A;
+}
+
+.container-icon > .icon-background-4{
+    background-color:  #FFACEF;
+    background-image: url('../assets/img/youtube-brands.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 4em;
+    border-radius: 49%;
+    width: 8em;
+    height: 8em;
+}
+
+.container-icon > .icon-background-5{
+  background-color: #71F3FF;
+  background-image: url('../assets/img/github-brands.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 4em;
   border-radius: 49%;
+  width: 8em;
+  height: 8em;
 }

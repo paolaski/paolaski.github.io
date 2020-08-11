@@ -1,6 +1,71 @@
 
-/* Estilos aplicables a toda la página */
-body{
-    background: src('../assets/img/background.jpg');
-    background-repeat: repeat;
+/*
+   C R E D I T S
+    - Fontface: 'Somatic'   by @Lauren Lee
+    - Fontface: 'Awesaweez' by @Gabriela Christine
+*/
+
+
+@font-face {
+  font-family: 'somatic';
+  src: url('../assets/fonts/Somatic-Rounded.woff2') format('woff2'),
+       url('../assets/fonts/Somatic-Rounded.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+}
+
+
+.container{
+  background: url('../assets/img/background.jpg');
+  background-repeat: repeat;
+  font-family: 'somatic', sans-serif;
+  align-items: center;
+  display: flex;
+  height: 90vh;
+  justify-content: center;
+}
+
+.container-page{
+  background: white;
+  border-radius: 25px;
+  border: 10px solid #3c3c3c;
+  display: flex;
+  flex-direction: column;
+  padding: 5% 2%;
+  width: 65%;
+}
+
+.container-title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+}
+
+.container-title > .title-img{
+  width: 500px;
+}
+
+.container-title > .title-text{
+  padding: 1% 0;
+}
+
+.container-title > .title-text > i{
+  font-size: 0.5em;
+}
+
+.container-body{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-icon > i{
+  padding: 0.5em 0.55em;
+  background-color: #FFACEF;
+  border-radius: 49%;
 }

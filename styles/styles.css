@@ -30,14 +30,6 @@
   .container-title > .title-text{
     font-size: 0.8em;
   }
-
-  .container-title > .title-img{
-    background-image: url('../assets/img/title.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 300px;
-  }
-
 }
 
 @media only screen and (min-width: 1100px) and (orientation: landscape) {
